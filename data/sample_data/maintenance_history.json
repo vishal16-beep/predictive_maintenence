@@ -1,0 +1,4594 @@
+[
+  {
+    "record_id":"REC-VEH-1000-148",
+    "vehicle_id":"VEH-1000",
+    "date":"2026-02-09T22:26:25.934851",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"critical",
+    "parts_replaced":[
+      "oil filter",
+      "spark plugs",
+      "air filter",
+      "piston rings"
+    ],
+    "repair_cost":5317.31,
+    "downtime_hours":70.4,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, spark plugs, air filter, piston rings",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-04-09T22:26:25.934851"
+  },
+  {
+    "record_id":"REC-VEH-1000-97",
+    "vehicle_id":"VEH-1000",
+    "date":"2026-04-01T22:26:25.965475",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "air filter"
+    ],
+    "repair_cost":214.86,
+    "downtime_hours":3.6,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-05-09T22:26:25.965475"
+  },
+  {
+    "record_id":"REC-VEH-1000-70",
+    "vehicle_id":"VEH-1000",
+    "date":"2026-04-28T22:26:25.966059",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "gears"
+    ],
+    "repair_cost":269.01,
+    "downtime_hours":1.2,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced gears",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-07-17T22:26:25.966059"
+  },
+  {
+    "record_id":"REC-VEH-1000-49",
+    "vehicle_id":"VEH-1000",
+    "date":"2026-05-19T22:26:25.966344",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"critical",
+    "parts_replaced":[
+      "calipers",
+      "brake rotors",
+      "brake fluid",
+      "brake pads"
+    ],
+    "repair_cost":5733.62,
+    "downtime_hours":72.2,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers, brake rotors, brake fluid, brake pads",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-07-19T22:26:25.966344"
+  },
+  {
+    "record_id":"REC-VEH-1000-196",
+    "vehicle_id":"VEH-1000",
+    "date":"2025-12-23T22:26:25.966512",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "clutch"
+    ],
+    "repair_cost":223.85,
+    "downtime_hours":2.6,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced clutch",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-03-08T22:26:25.966512"
+  },
+  {
+    "record_id":"REC-VEH-1000-91",
+    "vehicle_id":"VEH-1000",
+    "date":"2026-04-07T22:26:25.966682",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "alternator"
+    ],
+    "repair_cost":266.36,
+    "downtime_hours":3.5,
+    "technician_id":"TECH-018",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced alternator",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-06-23T22:26:25.966682"
+  },
+  {
+    "record_id":"REC-VEH-1000-58",
+    "vehicle_id":"VEH-1000",
+    "date":"2026-05-10T22:26:25.966837",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "battery",
+      "starter motor"
+    ],
+    "repair_cost":871.59,
+    "downtime_hours":7.1,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, starter motor",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-07-28T22:26:25.966837"
+  },
+  {
+    "record_id":"REC-VEH-1000-166",
+    "vehicle_id":"VEH-1000",
+    "date":"2026-01-22T22:26:25.966995",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "spark plugs"
+    ],
+    "repair_cost":245.54,
+    "downtime_hours":1.6,
+    "technician_id":"TECH-017",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced spark plugs",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-03-26T22:26:25.966995"
+  },
+  {
+    "record_id":"REC-VEH-1000-223",
+    "vehicle_id":"VEH-1000",
+    "date":"2025-11-26T22:26:25.967133",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "transmission fluid",
+      "synchros"
+    ],
+    "repair_cost":781.62,
+    "downtime_hours":11.4,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced transmission fluid, synchros",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-01-23T22:26:25.967133"
+  },
+  {
+    "record_id":"REC-VEH-1000-224",
+    "vehicle_id":"VEH-1000",
+    "date":"2025-11-25T22:26:25.967274",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "oil filter",
+      "spark plugs"
+    ],
+    "repair_cost":805.55,
+    "downtime_hours":6.9,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, spark plugs",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-01-26T22:26:25.967274"
+  },
+  {
+    "record_id":"REC-VEH-1000-25",
+    "vehicle_id":"VEH-1000",
+    "date":"2026-06-12T22:26:25.967410",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "wiring harness"
+    ],
+    "repair_cost":280.58,
+    "downtime_hours":1.0,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-09-06T22:26:25.967410"
+  },
+  {
+    "record_id":"REC-VEH-1000-30",
+    "vehicle_id":"VEH-1000",
+    "date":"2026-06-07T22:26:25.967548",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "alternator"
+    ],
+    "repair_cost":183.64,
+    "downtime_hours":1.9,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced alternator",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-07-24T22:26:25.967548"
+  },
+  {
+    "record_id":"REC-VEH-1000-81",
+    "vehicle_id":"VEH-1000",
+    "date":"2026-04-17T22:26:25.967687",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "piston rings",
+      "spark plugs"
+    ],
+    "repair_cost":806.53,
+    "downtime_hours":6.1,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, spark plugs",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-06-15T22:26:25.967687"
+  },
+  {
+    "record_id":"REC-VEH-1000-286",
+    "vehicle_id":"VEH-1000",
+    "date":"2025-09-24T22:26:25.968003",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"critical",
+    "parts_replaced":[
+      "battery",
+      "alternator",
+      "starter motor",
+      "wiring harness"
+    ],
+    "repair_cost":5678.92,
+    "downtime_hours":72.6,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, alternator, starter motor, wiring harness",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2025-10-27T22:26:25.968003"
+  },
+  {
+    "record_id":"REC-VEH-1001-195",
+    "vehicle_id":"VEH-1001",
+    "date":"2025-12-24T22:26:25.968278",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"high",
+    "parts_replaced":[
+      "brake fluid",
+      "brake rotors",
+      "brake pads"
+    ],
+    "repair_cost":2079.05,
+    "downtime_hours":26.7,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, brake rotors, brake pads",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-01-28T22:26:25.968278"
+  },
+  {
+    "record_id":"REC-VEH-1001-315",
+    "vehicle_id":"VEH-1001",
+    "date":"2025-08-26T22:26:25.968508",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"critical",
+    "parts_replaced":[
+      "calipers",
+      "brake pads",
+      "brake fluid",
+      "brake rotors"
+    ],
+    "repair_cost":5586.62,
+    "downtime_hours":75.6,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers, brake pads, brake fluid, brake rotors",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2025-09-25T22:26:25.968508"
+  },
+  {
+    "record_id":"REC-VEH-1001-346",
+    "vehicle_id":"VEH-1001",
+    "date":"2025-07-26T22:26:25.968740",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake fluid"
+    ],
+    "repair_cost":266.42,
+    "downtime_hours":3.0,
+    "technician_id":"TECH-018",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-09-18T22:26:25.968740"
+  },
+  {
+    "record_id":"REC-VEH-1001-53",
+    "vehicle_id":"VEH-1001",
+    "date":"2026-05-15T22:26:25.968961",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "oil filter",
+      "piston rings"
+    ],
+    "repair_cost":778.84,
+    "downtime_hours":10.8,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, piston rings",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-07-11T22:26:25.968961"
+  },
+  {
+    "record_id":"REC-VEH-1001-300",
+    "vehicle_id":"VEH-1001",
+    "date":"2025-09-10T22:26:25.969181",
+    "maintenance_type":"corrective",
+    "failure_type":"tire",
+    "severity":"low",
+    "parts_replaced":[
+      "wheel bearings"
+    ],
+    "repair_cost":193.1,
+    "downtime_hours":5.5,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced wheel bearings",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-11-06T22:26:25.969181"
+  },
+  {
+    "record_id":"REC-VEH-1001-305",
+    "vehicle_id":"VEH-1001",
+    "date":"2025-09-05T22:26:25.969420",
+    "maintenance_type":"corrective",
+    "failure_type":"tire",
+    "severity":"medium",
+    "parts_replaced":[
+      "TPMS sensors",
+      "tires"
+    ],
+    "repair_cost":627.57,
+    "downtime_hours":7.3,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced TPMS sensors, tires",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-12-01T22:26:25.969420"
+  },
+  {
+    "record_id":"REC-VEH-1001-359",
+    "vehicle_id":"VEH-1001",
+    "date":"2025-07-13T22:26:25.969681",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "piston rings"
+    ],
+    "repair_cost":257.06,
+    "downtime_hours":1.8,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-10-07T22:26:25.969681"
+  },
+  {
+    "record_id":"REC-VEH-1001-316",
+    "vehicle_id":"VEH-1001",
+    "date":"2025-08-25T22:26:25.969910",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"high",
+    "parts_replaced":[
+      "piston rings",
+      "oil filter",
+      "air filter"
+    ],
+    "repair_cost":2072.01,
+    "downtime_hours":27.5,
+    "technician_id":"TECH-003",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, oil filter, air filter",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-09-27T22:26:25.969910"
+  },
+  {
+    "record_id":"REC-VEH-1001-99",
+    "vehicle_id":"VEH-1001",
+    "date":"2026-03-30T22:26:25.970128",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "piston rings",
+      "air filter"
+    ],
+    "repair_cost":758.66,
+    "downtime_hours":7.0,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, air filter",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-05-17T22:26:25.970128"
+  },
+  {
+    "record_id":"REC-VEH-1001-18",
+    "vehicle_id":"VEH-1001",
+    "date":"2026-06-19T22:26:25.970342",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "air filter"
+    ],
+    "repair_cost":253.78,
+    "downtime_hours":3.5,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-08-02T22:26:25.970342"
+  },
+  {
+    "record_id":"REC-VEH-1001-6",
+    "vehicle_id":"VEH-1001",
+    "date":"2026-07-01T22:26:25.970562",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "wiring harness",
+      "alternator",
+      "battery"
+    ],
+    "repair_cost":1891.46,
+    "downtime_hours":22.0,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness, alternator, battery",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-08-24T22:26:25.970562"
+  },
+  {
+    "record_id":"REC-VEH-1001-31",
+    "vehicle_id":"VEH-1001",
+    "date":"2026-06-06T22:26:25.970795",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "air filter",
+      "oil filter"
+    ],
+    "repair_cost":680.95,
+    "downtime_hours":10.5,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter, oil filter",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-07-19T22:26:25.970795"
+  },
+  {
+    "record_id":"REC-VEH-1002-163",
+    "vehicle_id":"VEH-1002",
+    "date":"2026-01-25T22:26:25.971033",
+    "maintenance_type":"corrective",
+    "failure_type":"transmission",
+    "severity":"high",
+    "parts_replaced":[
+      "gears",
+      "transmission fluid",
+      "synchros"
+    ],
+    "repair_cost":1900.15,
+    "downtime_hours":27.5,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced gears, transmission fluid, synchros",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-04-21T22:26:25.971033"
+  },
+  {
+    "record_id":"REC-VEH-1002-245",
+    "vehicle_id":"VEH-1002",
+    "date":"2025-11-04T22:26:25.971262",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "battery"
+    ],
+    "repair_cost":209.24,
+    "downtime_hours":1.6,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-12-12T22:26:25.971262"
+  },
+  {
+    "record_id":"REC-VEH-1002-242",
+    "vehicle_id":"VEH-1002",
+    "date":"2025-11-07T22:26:25.971489",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"critical",
+    "parts_replaced":[
+      "spark plugs",
+      "piston rings",
+      "oil filter",
+      "air filter"
+    ],
+    "repair_cost":5493.18,
+    "downtime_hours":73.5,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced spark plugs, piston rings, oil filter, air filter",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2025-12-15T22:26:25.971489"
+  },
+  {
+    "record_id":"REC-VEH-1002-273",
+    "vehicle_id":"VEH-1002",
+    "date":"2025-10-07T22:26:25.971721",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "air filter"
+    ],
+    "repair_cost":236.29,
+    "downtime_hours":1.6,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-11-29T22:26:25.971721"
+  },
+  {
+    "record_id":"REC-VEH-1002-118",
+    "vehicle_id":"VEH-1002",
+    "date":"2026-03-11T22:26:25.971930",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "alternator",
+      "battery"
+    ],
+    "repair_cost":865.13,
+    "downtime_hours":8.0,
+    "technician_id":"TECH-014",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced alternator, battery",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-05-06T22:26:25.971930"
+  },
+  {
+    "record_id":"REC-VEH-1002-233",
+    "vehicle_id":"VEH-1002",
+    "date":"2025-11-16T22:26:25.972142",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "air filter"
+    ],
+    "repair_cost":239.4,
+    "downtime_hours":5.4,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-02-09T22:26:25.972142"
+  },
+  {
+    "record_id":"REC-VEH-1002-176",
+    "vehicle_id":"VEH-1002",
+    "date":"2026-01-12T22:26:25.972345",
+    "maintenance_type":"predictive",
+    "failure_type":"tire",
+    "severity":"medium",
+    "parts_replaced":[
+      "tires",
+      "wheel bearings"
+    ],
+    "repair_cost":712.06,
+    "downtime_hours":9.0,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced tires, wheel bearings",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-03-31T22:26:25.972345"
+  },
+  {
+    "record_id":"REC-VEH-1002-123",
+    "vehicle_id":"VEH-1002",
+    "date":"2026-03-06T22:26:25.972546",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "oil filter",
+      "spark plugs"
+    ],
+    "repair_cost":839.79,
+    "downtime_hours":6.4,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, spark plugs",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-04-13T22:26:25.972546"
+  },
+  {
+    "record_id":"REC-VEH-1002-49",
+    "vehicle_id":"VEH-1002",
+    "date":"2026-05-19T22:26:25.972760",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "calipers",
+      "brake rotors"
+    ],
+    "repair_cost":659.82,
+    "downtime_hours":9.8,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers, brake rotors",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-07-24T22:26:25.972760"
+  },
+  {
+    "record_id":"REC-VEH-1002-248",
+    "vehicle_id":"VEH-1002",
+    "date":"2025-11-01T22:26:25.972974",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "wiring harness",
+      "battery",
+      "starter motor"
+    ],
+    "repair_cost":1991.89,
+    "downtime_hours":26.8,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness, battery, starter motor",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-01-02T22:26:25.972974"
+  },
+  {
+    "record_id":"REC-VEH-1003-263",
+    "vehicle_id":"VEH-1003",
+    "date":"2025-10-17T22:26:25.973193",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "alternator",
+      "wiring harness",
+      "battery"
+    ],
+    "repair_cost":1735.07,
+    "downtime_hours":25.2,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced alternator, wiring harness, battery",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-11-16T22:26:25.973193"
+  },
+  {
+    "record_id":"REC-VEH-1003-189",
+    "vehicle_id":"VEH-1003",
+    "date":"2025-12-30T22:26:25.973393",
+    "maintenance_type":"corrective",
+    "failure_type":"tire",
+    "severity":"medium",
+    "parts_replaced":[
+      "tires",
+      "valve stems"
+    ],
+    "repair_cost":810.39,
+    "downtime_hours":10.9,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced tires, valve stems",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-03-14T22:26:25.973393"
+  },
+  {
+    "record_id":"REC-VEH-1003-56",
+    "vehicle_id":"VEH-1003",
+    "date":"2026-05-12T22:26:25.973699",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "battery",
+      "alternator"
+    ],
+    "repair_cost":792.58,
+    "downtime_hours":6.3,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, alternator",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-06-30T22:26:25.973699"
+  },
+  {
+    "record_id":"REC-VEH-1003-321",
+    "vehicle_id":"VEH-1003",
+    "date":"2025-08-20T22:26:25.973928",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake rotors",
+      "calipers"
+    ],
+    "repair_cost":841.2,
+    "downtime_hours":6.9,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake rotors, calipers",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-09-21T22:26:25.973928"
+  },
+  {
+    "record_id":"REC-VEH-1003-299",
+    "vehicle_id":"VEH-1003",
+    "date":"2025-09-11T22:26:25.974132",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "battery"
+    ],
+    "repair_cost":271.57,
+    "downtime_hours":3.5,
+    "technician_id":"TECH-007",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-10-31T22:26:25.974132"
+  },
+  {
+    "record_id":"REC-VEH-1003-151",
+    "vehicle_id":"VEH-1003",
+    "date":"2026-02-06T22:26:25.974346",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "transmission fluid",
+      "synchros"
+    ],
+    "repair_cost":616.68,
+    "downtime_hours":7.0,
+    "technician_id":"TECH-004",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced transmission fluid, synchros",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-05-01T22:26:25.974346"
+  },
+  {
+    "record_id":"REC-VEH-1003-361",
+    "vehicle_id":"VEH-1003",
+    "date":"2025-07-11T22:26:25.974555",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "clutch"
+    ],
+    "repair_cost":268.3,
+    "downtime_hours":3.0,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced clutch",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-08-29T22:26:25.974555"
+  },
+  {
+    "record_id":"REC-VEH-1003-23",
+    "vehicle_id":"VEH-1003",
+    "date":"2026-06-14T22:26:25.974776",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "calipers"
+    ],
+    "repair_cost":273.65,
+    "downtime_hours":5.4,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-09-08T22:26:25.974776"
+  },
+  {
+    "record_id":"REC-VEH-1003-191",
+    "vehicle_id":"VEH-1003",
+    "date":"2025-12-28T22:26:25.975021",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake pads",
+      "calipers"
+    ],
+    "repair_cost":849.16,
+    "downtime_hours":10.3,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads, calipers",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-03-17T22:26:25.975021"
+  },
+  {
+    "record_id":"REC-VEH-1003-57",
+    "vehicle_id":"VEH-1003",
+    "date":"2026-05-11T22:26:25.975230",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"critical",
+    "parts_replaced":[
+      "transmission fluid",
+      "gears",
+      "clutch",
+      "synchros"
+    ],
+    "repair_cost":5251.38,
+    "downtime_hours":72.6,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced transmission fluid, gears, clutch, synchros",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-07-13T22:26:25.975230"
+  },
+  {
+    "record_id":"REC-VEH-1003-295",
+    "vehicle_id":"VEH-1003",
+    "date":"2025-09-15T22:26:25.975437",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "spark plugs"
+    ],
+    "repair_cost":247.91,
+    "downtime_hours":3.8,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced spark plugs",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-12-06T22:26:25.975437"
+  },
+  {
+    "record_id":"REC-VEH-1004-139",
+    "vehicle_id":"VEH-1004",
+    "date":"2026-02-18T22:26:25.975683",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "starter motor"
+    ],
+    "repair_cost":198.24,
+    "downtime_hours":4.8,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced starter motor",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-04-19T22:26:25.975683"
+  },
+  {
+    "record_id":"REC-VEH-1004-289",
+    "vehicle_id":"VEH-1004",
+    "date":"2025-09-21T22:26:25.975902",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "wiring harness",
+      "alternator"
+    ],
+    "repair_cost":691.39,
+    "downtime_hours":10.9,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness, alternator",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-11-04T22:26:25.975902"
+  },
+  {
+    "record_id":"REC-VEH-1004-114",
+    "vehicle_id":"VEH-1004",
+    "date":"2026-03-15T22:26:25.976104",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "starter motor",
+      "wiring harness"
+    ],
+    "repair_cost":744.26,
+    "downtime_hours":11.1,
+    "technician_id":"TECH-018",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced starter motor, wiring harness",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-04-26T22:26:25.976104"
+  },
+  {
+    "record_id":"REC-VEH-1004-188",
+    "vehicle_id":"VEH-1004",
+    "date":"2025-12-31T22:26:25.976411",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "piston rings"
+    ],
+    "repair_cost":232.16,
+    "downtime_hours":2.6,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-02-22T22:26:25.976411"
+  },
+  {
+    "record_id":"REC-VEH-1004-111",
+    "vehicle_id":"VEH-1004",
+    "date":"2026-03-18T22:26:25.976688",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "synchros",
+      "gears"
+    ],
+    "repair_cost":787.22,
+    "downtime_hours":10.9,
+    "technician_id":"TECH-004",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced synchros, gears",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-05-13T22:26:25.976688"
+  },
+  {
+    "record_id":"REC-VEH-1004-161",
+    "vehicle_id":"VEH-1004",
+    "date":"2026-01-27T22:26:25.976934",
+    "maintenance_type":"corrective",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "transmission fluid"
+    ],
+    "repair_cost":251.29,
+    "downtime_hours":5.9,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced transmission fluid",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-03-25T22:26:25.976934"
+  },
+  {
+    "record_id":"REC-VEH-1004-183",
+    "vehicle_id":"VEH-1004",
+    "date":"2026-01-05T22:26:25.977145",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "starter motor",
+      "battery",
+      "alternator"
+    ],
+    "repair_cost":1980.75,
+    "downtime_hours":24.6,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced starter motor, battery, alternator",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-04-04T22:26:25.977145"
+  },
+  {
+    "record_id":"REC-VEH-1004-61",
+    "vehicle_id":"VEH-1004",
+    "date":"2026-05-07T22:26:25.977362",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "starter motor",
+      "wiring harness"
+    ],
+    "repair_cost":693.15,
+    "downtime_hours":7.4,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced starter motor, wiring harness",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-06-29T22:26:25.977362"
+  },
+  {
+    "record_id":"REC-VEH-1004-84",
+    "vehicle_id":"VEH-1004",
+    "date":"2026-04-14T22:26:25.977587",
+    "maintenance_type":"corrective",
+    "failure_type":"tire",
+    "severity":"low",
+    "parts_replaced":[
+      "wheel bearings"
+    ],
+    "repair_cost":269.09,
+    "downtime_hours":2.6,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced wheel bearings",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-07-12T22:26:25.977587"
+  },
+  {
+    "record_id":"REC-VEH-1004-190",
+    "vehicle_id":"VEH-1004",
+    "date":"2025-12-29T22:26:25.977807",
+    "maintenance_type":"predictive",
+    "failure_type":"tire",
+    "severity":"medium",
+    "parts_replaced":[
+      "tires",
+      "wheel bearings"
+    ],
+    "repair_cost":712.01,
+    "downtime_hours":7.4,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced tires, wheel bearings",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-03-20T22:26:25.977807"
+  },
+  {
+    "record_id":"REC-VEH-1004-339",
+    "vehicle_id":"VEH-1004",
+    "date":"2025-08-02T22:26:25.978013",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"high",
+    "parts_replaced":[
+      "oil filter",
+      "piston rings",
+      "air filter"
+    ],
+    "repair_cost":2068.1,
+    "downtime_hours":27.3,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, piston rings, air filter",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-10-08T22:26:25.978013"
+  },
+  {
+    "record_id":"REC-VEH-1004-42",
+    "vehicle_id":"VEH-1004",
+    "date":"2026-05-26T22:26:25.978206",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "battery",
+      "alternator",
+      "starter motor"
+    ],
+    "repair_cost":1799.03,
+    "downtime_hours":26.3,
+    "technician_id":"TECH-003",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, alternator, starter motor",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-08-18T22:26:25.978206"
+  },
+  {
+    "record_id":"REC-VEH-1004-333",
+    "vehicle_id":"VEH-1004",
+    "date":"2025-08-08T22:26:25.978426",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake fluid",
+      "calipers"
+    ],
+    "repair_cost":849.86,
+    "downtime_hours":10.8,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, calipers",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-10-05T22:26:25.978426"
+  },
+  {
+    "record_id":"REC-VEH-1004-27",
+    "vehicle_id":"VEH-1004",
+    "date":"2026-06-10T22:26:25.978649",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "battery",
+      "wiring harness",
+      "starter motor"
+    ],
+    "repair_cost":1671.73,
+    "downtime_hours":26.3,
+    "technician_id":"TECH-007",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, wiring harness, starter motor",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-08-07T22:26:25.978649"
+  },
+  {
+    "record_id":"REC-VEH-1004-350",
+    "vehicle_id":"VEH-1004",
+    "date":"2025-07-22T22:26:25.978884",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "clutch",
+      "synchros"
+    ],
+    "repair_cost":862.12,
+    "downtime_hours":9.5,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced clutch, synchros",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-10-18T22:26:25.978884"
+  },
+  {
+    "record_id":"REC-VEH-1005-65",
+    "vehicle_id":"VEH-1005",
+    "date":"2026-05-03T22:26:25.979108",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "air filter",
+      "spark plugs"
+    ],
+    "repair_cost":853.32,
+    "downtime_hours":8.5,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter, spark plugs",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-06-05T22:26:25.979108"
+  },
+  {
+    "record_id":"REC-VEH-1005-243",
+    "vehicle_id":"VEH-1005",
+    "date":"2025-11-06T22:26:25.979340",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "alternator",
+      "starter motor"
+    ],
+    "repair_cost":808.02,
+    "downtime_hours":9.6,
+    "technician_id":"TECH-014",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced alternator, starter motor",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-12-25T22:26:25.979340"
+  },
+  {
+    "record_id":"REC-VEH-1005-202",
+    "vehicle_id":"VEH-1005",
+    "date":"2025-12-17T22:26:25.979725",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"high",
+    "parts_replaced":[
+      "brake fluid",
+      "brake rotors",
+      "brake pads"
+    ],
+    "repair_cost":1798.03,
+    "downtime_hours":23.1,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, brake rotors, brake pads",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-02-11T22:26:25.979725"
+  },
+  {
+    "record_id":"REC-VEH-1005-132",
+    "vehicle_id":"VEH-1005",
+    "date":"2026-02-25T22:26:25.979930",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "air filter"
+    ],
+    "repair_cost":195.61,
+    "downtime_hours":3.5,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-04-28T22:26:25.979930"
+  },
+  {
+    "record_id":"REC-VEH-1005-236",
+    "vehicle_id":"VEH-1005",
+    "date":"2025-11-13T22:26:25.980097",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"high",
+    "parts_replaced":[
+      "oil filter",
+      "spark plugs",
+      "piston rings"
+    ],
+    "repair_cost":1967.96,
+    "downtime_hours":25.5,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, spark plugs, piston rings",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-12-19T22:26:25.980097"
+  },
+  {
+    "record_id":"REC-VEH-1005-173",
+    "vehicle_id":"VEH-1005",
+    "date":"2026-01-15T22:26:25.980273",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "calipers"
+    ],
+    "repair_cost":288.88,
+    "downtime_hours":4.3,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-03-12T22:26:25.980273"
+  },
+  {
+    "record_id":"REC-VEH-1005-159",
+    "vehicle_id":"VEH-1005",
+    "date":"2026-01-29T22:26:25.980464",
+    "maintenance_type":"corrective",
+    "failure_type":"transmission",
+    "severity":"high",
+    "parts_replaced":[
+      "clutch",
+      "transmission fluid",
+      "gears"
+    ],
+    "repair_cost":2039.16,
+    "downtime_hours":22.5,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced clutch, transmission fluid, gears",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-04-23T22:26:25.980464"
+  },
+  {
+    "record_id":"REC-VEH-1005-311",
+    "vehicle_id":"VEH-1005",
+    "date":"2025-08-30T22:26:25.980657",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake pads"
+    ],
+    "repair_cost":227.15,
+    "downtime_hours":2.8,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-11-11T22:26:25.980657"
+  },
+  {
+    "record_id":"REC-VEH-1005-233",
+    "vehicle_id":"VEH-1005",
+    "date":"2025-11-16T22:26:25.980804",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"high",
+    "parts_replaced":[
+      "clutch",
+      "transmission fluid",
+      "synchros"
+    ],
+    "repair_cost":1684.72,
+    "downtime_hours":26.6,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced clutch, transmission fluid, synchros",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-01-30T22:26:25.980804"
+  },
+  {
+    "record_id":"REC-VEH-1005-198",
+    "vehicle_id":"VEH-1005",
+    "date":"2025-12-21T22:26:25.980945",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "clutch",
+      "synchros"
+    ],
+    "repair_cost":666.41,
+    "downtime_hours":6.8,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced clutch, synchros",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-02-17T22:26:25.980945"
+  },
+  {
+    "record_id":"REC-VEH-1005-292",
+    "vehicle_id":"VEH-1005",
+    "date":"2025-09-18T22:26:25.981204",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake rotors"
+    ],
+    "repair_cost":170.16,
+    "downtime_hours":3.0,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake rotors",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-10-31T22:26:25.981204"
+  },
+  {
+    "record_id":"REC-VEH-1005-43",
+    "vehicle_id":"VEH-1005",
+    "date":"2026-05-25T22:26:25.981515",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"high",
+    "parts_replaced":[
+      "piston rings",
+      "spark plugs",
+      "air filter"
+    ],
+    "repair_cost":1743.59,
+    "downtime_hours":27.5,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, spark plugs, air filter",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-07-29T22:26:25.981515"
+  },
+  {
+    "record_id":"REC-VEH-1006-15",
+    "vehicle_id":"VEH-1006",
+    "date":"2026-06-22T22:26:25.981822",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "piston rings"
+    ],
+    "repair_cost":168.13,
+    "downtime_hours":4.4,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-08-07T22:26:25.981822"
+  },
+  {
+    "record_id":"REC-VEH-1006-177",
+    "vehicle_id":"VEH-1006",
+    "date":"2026-01-11T22:26:25.982094",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "piston rings",
+      "spark plugs"
+    ],
+    "repair_cost":873.06,
+    "downtime_hours":9.4,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, spark plugs",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-03-12T22:26:25.982094"
+  },
+  {
+    "record_id":"REC-VEH-1006-84",
+    "vehicle_id":"VEH-1006",
+    "date":"2026-04-14T22:26:25.982254",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"critical",
+    "parts_replaced":[
+      "brake rotors",
+      "brake pads",
+      "brake fluid",
+      "calipers"
+    ],
+    "repair_cost":5350.48,
+    "downtime_hours":73.4,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake rotors, brake pads, brake fluid, calipers",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-05-26T22:26:25.982254"
+  },
+  {
+    "record_id":"REC-VEH-1006-335",
+    "vehicle_id":"VEH-1006",
+    "date":"2025-08-06T22:26:25.982404",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake rotors",
+      "brake fluid"
+    ],
+    "repair_cost":719.72,
+    "downtime_hours":7.5,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake rotors, brake fluid",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-10-13T22:26:25.982404"
+  },
+  {
+    "record_id":"REC-VEH-1006-314",
+    "vehicle_id":"VEH-1006",
+    "date":"2025-08-27T22:26:25.982570",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"high",
+    "parts_replaced":[
+      "piston rings",
+      "oil filter",
+      "spark plugs"
+    ],
+    "repair_cost":1824.75,
+    "downtime_hours":23.6,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, oil filter, spark plugs",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-10-13T22:26:25.982570"
+  },
+  {
+    "record_id":"REC-VEH-1006-363",
+    "vehicle_id":"VEH-1006",
+    "date":"2025-07-09T22:26:25.982712",
+    "maintenance_type":"preventive",
+    "failure_type":"tire",
+    "severity":"medium",
+    "parts_replaced":[
+      "valve stems",
+      "wheel bearings"
+    ],
+    "repair_cost":841.98,
+    "downtime_hours":10.9,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced valve stems, wheel bearings",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-08-22T22:26:25.982712"
+  },
+  {
+    "record_id":"REC-VEH-1006-332",
+    "vehicle_id":"VEH-1006",
+    "date":"2025-08-09T22:26:25.982853",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake fluid",
+      "brake rotors"
+    ],
+    "repair_cost":738.71,
+    "downtime_hours":8.7,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, brake rotors",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-10-14T22:26:25.982853"
+  },
+  {
+    "record_id":"REC-VEH-1006-329",
+    "vehicle_id":"VEH-1006",
+    "date":"2025-08-12T22:26:25.982990",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "transmission fluid"
+    ],
+    "repair_cost":254.29,
+    "downtime_hours":4.6,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced transmission fluid",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-10-20T22:26:25.982990"
+  },
+  {
+    "record_id":"REC-VEH-1006-290",
+    "vehicle_id":"VEH-1006",
+    "date":"2025-09-20T22:26:25.983190",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "air filter"
+    ],
+    "repair_cost":217.97,
+    "downtime_hours":5.7,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-12-13T22:26:25.983190"
+  },
+  {
+    "record_id":"REC-VEH-1006-21",
+    "vehicle_id":"VEH-1006",
+    "date":"2026-06-16T22:26:25.983333",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"high",
+    "parts_replaced":[
+      "brake pads",
+      "calipers",
+      "brake rotors"
+    ],
+    "repair_cost":1668.88,
+    "downtime_hours":22.9,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads, calipers, brake rotors",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-08-02T22:26:25.983333"
+  },
+  {
+    "record_id":"REC-VEH-1006-127",
+    "vehicle_id":"VEH-1006",
+    "date":"2026-03-02T22:26:25.983469",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "transmission fluid"
+    ],
+    "repair_cost":287.74,
+    "downtime_hours":2.9,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced transmission fluid",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-05-13T22:26:25.983469"
+  },
+  {
+    "record_id":"REC-VEH-1007-225",
+    "vehicle_id":"VEH-1007",
+    "date":"2025-11-24T22:26:25.983610",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "piston rings",
+      "air filter"
+    ],
+    "repair_cost":756.27,
+    "downtime_hours":11.4,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, air filter",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-01-10T22:26:25.983610"
+  },
+  {
+    "record_id":"REC-VEH-1007-331",
+    "vehicle_id":"VEH-1007",
+    "date":"2025-08-10T22:26:25.983746",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"critical",
+    "parts_replaced":[
+      "brake rotors",
+      "brake fluid",
+      "brake pads",
+      "calipers"
+    ],
+    "repair_cost":5483.16,
+    "downtime_hours":72.9,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake rotors, brake fluid, brake pads, calipers",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2025-09-11T22:26:25.983746"
+  },
+  {
+    "record_id":"REC-VEH-1007-80",
+    "vehicle_id":"VEH-1007",
+    "date":"2026-04-18T22:26:25.983882",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "air filter",
+      "spark plugs"
+    ],
+    "repair_cost":812.87,
+    "downtime_hours":10.0,
+    "technician_id":"TECH-014",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter, spark plugs",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-07-12T22:26:25.983882"
+  },
+  {
+    "record_id":"REC-VEH-1007-64",
+    "vehicle_id":"VEH-1007",
+    "date":"2026-05-04T22:26:25.984017",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "calipers",
+      "brake pads"
+    ],
+    "repair_cost":723.4,
+    "downtime_hours":9.9,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers, brake pads",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-06-28T22:26:25.984017"
+  },
+  {
+    "record_id":"REC-VEH-1007-209",
+    "vehicle_id":"VEH-1007",
+    "date":"2025-12-10T22:26:25.984151",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "piston rings"
+    ],
+    "repair_cost":210.73,
+    "downtime_hours":5.6,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-03-06T22:26:25.984151"
+  },
+  {
+    "record_id":"REC-VEH-1007-172",
+    "vehicle_id":"VEH-1007",
+    "date":"2026-01-16T22:26:25.984284",
+    "maintenance_type":"preventive",
+    "failure_type":"tire",
+    "severity":"critical",
+    "parts_replaced":[
+      "tires",
+      "valve stems",
+      "wheel bearings",
+      "TPMS sensors"
+    ],
+    "repair_cost":5735.51,
+    "downtime_hours":71.2,
+    "technician_id":"TECH-004",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced tires, valve stems, wheel bearings, TPMS sensors",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-02-27T22:26:25.984284"
+  },
+  {
+    "record_id":"REC-VEH-1007-142",
+    "vehicle_id":"VEH-1007",
+    "date":"2026-02-15T22:26:25.984419",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "wiring harness",
+      "alternator",
+      "battery"
+    ],
+    "repair_cost":1733.72,
+    "downtime_hours":23.3,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness, alternator, battery",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-04-10T22:26:25.984419"
+  },
+  {
+    "record_id":"REC-VEH-1007-252",
+    "vehicle_id":"VEH-1007",
+    "date":"2025-10-28T22:26:25.984555",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"high",
+    "parts_replaced":[
+      "oil filter",
+      "air filter",
+      "spark plugs"
+    ],
+    "repair_cost":1860.29,
+    "downtime_hours":25.9,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, air filter, spark plugs",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-12-10T22:26:25.984555"
+  },
+  {
+    "record_id":"REC-VEH-1007-53",
+    "vehicle_id":"VEH-1007",
+    "date":"2026-05-15T22:26:25.984691",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"high",
+    "parts_replaced":[
+      "brake fluid",
+      "calipers",
+      "brake pads"
+    ],
+    "repair_cost":1791.87,
+    "downtime_hours":25.7,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, calipers, brake pads",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-07-08T22:26:25.984691"
+  },
+  {
+    "record_id":"REC-VEH-1007-64",
+    "vehicle_id":"VEH-1007",
+    "date":"2026-05-04T22:26:25.984826",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "battery",
+      "starter motor",
+      "alternator"
+    ],
+    "repair_cost":2026.95,
+    "downtime_hours":22.1,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, starter motor, alternator",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-07-07T22:26:25.984826"
+  },
+  {
+    "record_id":"REC-VEH-1007-107",
+    "vehicle_id":"VEH-1007",
+    "date":"2026-03-22T22:26:25.984963",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"critical",
+    "parts_replaced":[
+      "brake fluid",
+      "calipers",
+      "brake pads",
+      "brake rotors"
+    ],
+    "repair_cost":5573.56,
+    "downtime_hours":73.4,
+    "technician_id":"TECH-004",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, calipers, brake pads, brake rotors",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-04-22T22:26:25.984963"
+  },
+  {
+    "record_id":"REC-VEH-1007-210",
+    "vehicle_id":"VEH-1007",
+    "date":"2025-12-09T22:26:25.985138",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"high",
+    "parts_replaced":[
+      "piston rings",
+      "spark plugs",
+      "air filter"
+    ],
+    "repair_cost":1815.4,
+    "downtime_hours":23.5,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, spark plugs, air filter",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-01-21T22:26:25.985138"
+  },
+  {
+    "record_id":"REC-VEH-1007-267",
+    "vehicle_id":"VEH-1007",
+    "date":"2025-10-13T22:26:25.985300",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "gears"
+    ],
+    "repair_cost":240.97,
+    "downtime_hours":1.7,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced gears",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-12-02T22:26:25.985300"
+  },
+  {
+    "record_id":"REC-VEH-1007-348",
+    "vehicle_id":"VEH-1007",
+    "date":"2025-07-24T22:26:25.985455",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake fluid"
+    ],
+    "repair_cost":254.39,
+    "downtime_hours":2.6,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-09-03T22:26:25.985455"
+  },
+  {
+    "record_id":"REC-VEH-1007-91",
+    "vehicle_id":"VEH-1007",
+    "date":"2026-04-07T22:26:25.985593",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "battery",
+      "wiring harness",
+      "starter motor"
+    ],
+    "repair_cost":1850.04,
+    "downtime_hours":27.8,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, wiring harness, starter motor",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-06-23T22:26:25.985593"
+  },
+  {
+    "record_id":"REC-VEH-1007-157",
+    "vehicle_id":"VEH-1007",
+    "date":"2026-01-31T22:26:25.985732",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"critical",
+    "parts_replaced":[
+      "transmission fluid",
+      "clutch",
+      "synchros",
+      "gears"
+    ],
+    "repair_cost":5554.66,
+    "downtime_hours":73.3,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced transmission fluid, clutch, synchros, gears",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-04-04T22:26:25.985732"
+  },
+  {
+    "record_id":"REC-VEH-1007-291",
+    "vehicle_id":"VEH-1007",
+    "date":"2025-09-19T22:26:25.985870",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"high",
+    "parts_replaced":[
+      "piston rings",
+      "oil filter",
+      "spark plugs"
+    ],
+    "repair_cost":1801.66,
+    "downtime_hours":25.3,
+    "technician_id":"TECH-014",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, oil filter, spark plugs",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-11-16T22:26:25.985870"
+  },
+  {
+    "record_id":"REC-VEH-1007-100",
+    "vehicle_id":"VEH-1007",
+    "date":"2026-03-29T22:26:25.986006",
+    "maintenance_type":"corrective",
+    "failure_type":"transmission",
+    "severity":"high",
+    "parts_replaced":[
+      "synchros",
+      "gears",
+      "transmission fluid"
+    ],
+    "repair_cost":2080.36,
+    "downtime_hours":26.8,
+    "technician_id":"TECH-007",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced synchros, gears, transmission fluid",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-06-11T22:26:25.986006"
+  },
+  {
+    "record_id":"REC-VEH-1008-0",
+    "vehicle_id":"VEH-1008",
+    "date":"2026-07-07T22:26:25.986148",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "calipers",
+      "brake pads"
+    ],
+    "repair_cost":639.35,
+    "downtime_hours":8.6,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers, brake pads",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-08-26T22:26:25.986148"
+  },
+  {
+    "record_id":"REC-VEH-1008-246",
+    "vehicle_id":"VEH-1008",
+    "date":"2025-11-03T22:26:25.986285",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake pads"
+    ],
+    "repair_cost":236.08,
+    "downtime_hours":2.7,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-12-11T22:26:25.986285"
+  },
+  {
+    "record_id":"REC-VEH-1008-46",
+    "vehicle_id":"VEH-1008",
+    "date":"2026-05-22T22:26:25.986418",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "spark plugs",
+      "piston rings"
+    ],
+    "repair_cost":641.93,
+    "downtime_hours":9.4,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced spark plugs, piston rings",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-07-27T22:26:25.986418"
+  },
+  {
+    "record_id":"REC-VEH-1008-168",
+    "vehicle_id":"VEH-1008",
+    "date":"2026-01-20T22:26:25.986555",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "wiring harness",
+      "battery",
+      "starter motor"
+    ],
+    "repair_cost":1771.28,
+    "downtime_hours":25.4,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness, battery, starter motor",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-02-24T22:26:25.986555"
+  },
+  {
+    "record_id":"REC-VEH-1008-253",
+    "vehicle_id":"VEH-1008",
+    "date":"2025-10-27T22:26:25.986692",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "starter motor"
+    ],
+    "repair_cost":209.53,
+    "downtime_hours":1.1,
+    "technician_id":"TECH-007",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced starter motor",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-12-20T22:26:25.986692"
+  },
+  {
+    "record_id":"REC-VEH-1008-31",
+    "vehicle_id":"VEH-1008",
+    "date":"2026-06-06T22:26:25.986956",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "piston rings",
+      "spark plugs"
+    ],
+    "repair_cost":806.0,
+    "downtime_hours":11.0,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, spark plugs",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-07-29T22:26:25.986956"
+  },
+  {
+    "record_id":"REC-VEH-1008-310",
+    "vehicle_id":"VEH-1008",
+    "date":"2025-08-31T22:26:25.987208",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "alternator",
+      "battery",
+      "wiring harness"
+    ],
+    "repair_cost":2031.15,
+    "downtime_hours":28.0,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced alternator, battery, wiring harness",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-10-06T22:26:25.987208"
+  },
+  {
+    "record_id":"REC-VEH-1009-159",
+    "vehicle_id":"VEH-1009",
+    "date":"2026-01-29T22:26:25.987435",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "wiring harness",
+      "starter motor",
+      "alternator"
+    ],
+    "repair_cost":1658.79,
+    "downtime_hours":26.0,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness, starter motor, alternator",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-03-19T22:26:25.987435"
+  },
+  {
+    "record_id":"REC-VEH-1009-120",
+    "vehicle_id":"VEH-1009",
+    "date":"2026-03-09T22:26:25.987645",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "gears",
+      "synchros"
+    ],
+    "repair_cost":660.41,
+    "downtime_hours":9.7,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced gears, synchros",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-04-20T22:26:25.987645"
+  },
+  {
+    "record_id":"REC-VEH-1009-147",
+    "vehicle_id":"VEH-1009",
+    "date":"2026-02-10T22:26:25.987865",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "battery",
+      "alternator"
+    ],
+    "repair_cost":759.83,
+    "downtime_hours":11.8,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, alternator",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-03-24T22:26:25.987865"
+  },
+  {
+    "record_id":"REC-VEH-1009-85",
+    "vehicle_id":"VEH-1009",
+    "date":"2026-04-13T22:26:25.988008",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"critical",
+    "parts_replaced":[
+      "gears",
+      "synchros",
+      "transmission fluid",
+      "clutch"
+    ],
+    "repair_cost":5629.86,
+    "downtime_hours":73.3,
+    "technician_id":"TECH-014",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced gears, synchros, transmission fluid, clutch",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-05-28T22:26:25.988008"
+  },
+  {
+    "record_id":"REC-VEH-1009-132",
+    "vehicle_id":"VEH-1009",
+    "date":"2026-02-25T22:26:25.988147",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake pads",
+      "brake rotors"
+    ],
+    "repair_cost":795.26,
+    "downtime_hours":8.9,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads, brake rotors",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-05-21T22:26:25.988147"
+  },
+  {
+    "record_id":"REC-VEH-1009-137",
+    "vehicle_id":"VEH-1009",
+    "date":"2026-02-20T22:26:25.988342",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "wiring harness"
+    ],
+    "repair_cost":166.24,
+    "downtime_hours":3.1,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-05-20T22:26:25.988342"
+  },
+  {
+    "record_id":"REC-VEH-1009-106",
+    "vehicle_id":"VEH-1009",
+    "date":"2026-03-23T22:26:25.988599",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake rotors"
+    ],
+    "repair_cost":163.7,
+    "downtime_hours":1.0,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake rotors",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-05-20T22:26:25.988599"
+  },
+  {
+    "record_id":"REC-VEH-1009-120",
+    "vehicle_id":"VEH-1009",
+    "date":"2026-03-09T22:26:25.988746",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "oil filter",
+      "spark plugs"
+    ],
+    "repair_cost":825.0,
+    "downtime_hours":9.9,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, spark plugs",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-05-20T22:26:25.988746"
+  },
+  {
+    "record_id":"REC-VEH-1010-138",
+    "vehicle_id":"VEH-1010",
+    "date":"2026-02-19T22:26:25.988889",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake fluid",
+      "brake rotors"
+    ],
+    "repair_cost":873.47,
+    "downtime_hours":9.8,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, brake rotors",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-04-25T22:26:25.988889"
+  },
+  {
+    "record_id":"REC-VEH-1010-90",
+    "vehicle_id":"VEH-1010",
+    "date":"2026-04-08T22:26:25.989027",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"critical",
+    "parts_replaced":[
+      "piston rings",
+      "oil filter",
+      "air filter",
+      "spark plugs"
+    ],
+    "repair_cost":5753.94,
+    "downtime_hours":71.7,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, oil filter, air filter, spark plugs",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-06-19T22:26:25.989027"
+  },
+  {
+    "record_id":"REC-VEH-1010-46",
+    "vehicle_id":"VEH-1010",
+    "date":"2026-05-22T22:26:25.989168",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "starter motor",
+      "alternator"
+    ],
+    "repair_cost":742.95,
+    "downtime_hours":11.2,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced starter motor, alternator",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-06-25T22:26:25.989168"
+  },
+  {
+    "record_id":"REC-VEH-1010-249",
+    "vehicle_id":"VEH-1010",
+    "date":"2025-10-31T22:26:25.989308",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "battery",
+      "starter motor"
+    ],
+    "repair_cost":750.62,
+    "downtime_hours":8.7,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, starter motor",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-01-08T22:26:25.989308"
+  },
+  {
+    "record_id":"REC-VEH-1010-157",
+    "vehicle_id":"VEH-1010",
+    "date":"2026-01-31T22:26:25.989531",
+    "maintenance_type":"corrective",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "gears",
+      "transmission fluid"
+    ],
+    "repair_cost":678.84,
+    "downtime_hours":8.4,
+    "technician_id":"TECH-004",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced gears, transmission fluid",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-03-29T22:26:25.989531"
+  },
+  {
+    "record_id":"REC-VEH-1011-46",
+    "vehicle_id":"VEH-1011",
+    "date":"2026-05-22T22:26:25.989714",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "oil filter",
+      "air filter"
+    ],
+    "repair_cost":667.15,
+    "downtime_hours":12.0,
+    "technician_id":"TECH-007",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, air filter",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-08-09T22:26:25.989714"
+  },
+  {
+    "record_id":"REC-VEH-1011-137",
+    "vehicle_id":"VEH-1011",
+    "date":"2026-02-20T22:26:25.989853",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "air filter",
+      "oil filter"
+    ],
+    "repair_cost":607.44,
+    "downtime_hours":9.6,
+    "technician_id":"TECH-004",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter, oil filter",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-04-17T22:26:25.989853"
+  },
+  {
+    "record_id":"REC-VEH-1011-192",
+    "vehicle_id":"VEH-1011",
+    "date":"2025-12-27T22:26:25.989988",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "alternator",
+      "starter motor"
+    ],
+    "repair_cost":770.98,
+    "downtime_hours":7.1,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced alternator, starter motor",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-02-17T22:26:25.989988"
+  },
+  {
+    "record_id":"REC-VEH-1011-342",
+    "vehicle_id":"VEH-1011",
+    "date":"2025-07-30T22:26:25.990125",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "calipers"
+    ],
+    "repair_cost":208.09,
+    "downtime_hours":4.0,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-08-29T22:26:25.990125"
+  },
+  {
+    "record_id":"REC-VEH-1011-67",
+    "vehicle_id":"VEH-1011",
+    "date":"2026-05-01T22:26:25.990262",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake pads"
+    ],
+    "repair_cost":247.33,
+    "downtime_hours":5.2,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-07-28T22:26:25.990262"
+  },
+  {
+    "record_id":"REC-VEH-1011-64",
+    "vehicle_id":"VEH-1011",
+    "date":"2026-05-04T22:26:25.990439",
+    "maintenance_type":"corrective",
+    "failure_type":"tire",
+    "severity":"medium",
+    "parts_replaced":[
+      "valve stems",
+      "TPMS sensors"
+    ],
+    "repair_cost":809.9,
+    "downtime_hours":11.7,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced valve stems, TPMS sensors",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-07-20T22:26:25.990439"
+  },
+  {
+    "record_id":"REC-VEH-1011-221",
+    "vehicle_id":"VEH-1011",
+    "date":"2025-11-28T22:26:25.990606",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake rotors",
+      "brake pads"
+    ],
+    "repair_cost":888.83,
+    "downtime_hours":7.0,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake rotors, brake pads",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-01-26T22:26:25.990606"
+  },
+  {
+    "record_id":"REC-VEH-1011-260",
+    "vehicle_id":"VEH-1011",
+    "date":"2025-10-20T22:26:25.990745",
+    "maintenance_type":"preventive",
+    "failure_type":"tire",
+    "severity":"medium",
+    "parts_replaced":[
+      "valve stems",
+      "tires"
+    ],
+    "repair_cost":765.84,
+    "downtime_hours":10.9,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced valve stems, tires",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-01-16T22:26:25.990745"
+  },
+  {
+    "record_id":"REC-VEH-1011-316",
+    "vehicle_id":"VEH-1011",
+    "date":"2025-08-25T22:26:25.990882",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "alternator",
+      "battery"
+    ],
+    "repair_cost":756.62,
+    "downtime_hours":11.9,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced alternator, battery",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-11-10T22:26:25.990882"
+  },
+  {
+    "record_id":"REC-VEH-1011-342",
+    "vehicle_id":"VEH-1011",
+    "date":"2025-07-30T22:26:25.991017",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "alternator",
+      "starter motor",
+      "battery"
+    ],
+    "repair_cost":1873.95,
+    "downtime_hours":22.1,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced alternator, starter motor, battery",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-10-12T22:26:25.991017"
+  },
+  {
+    "record_id":"REC-VEH-1011-332",
+    "vehicle_id":"VEH-1011",
+    "date":"2025-08-09T22:26:25.991153",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake rotors",
+      "calipers"
+    ],
+    "repair_cost":848.1,
+    "downtime_hours":10.1,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake rotors, calipers",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-10-02T22:26:25.991153"
+  },
+  {
+    "record_id":"REC-VEH-1011-46",
+    "vehicle_id":"VEH-1011",
+    "date":"2026-05-22T22:26:25.991291",
+    "maintenance_type":"corrective",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "synchros"
+    ],
+    "repair_cost":278.99,
+    "downtime_hours":4.0,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced synchros",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-06-21T22:26:25.991291"
+  },
+  {
+    "record_id":"REC-VEH-1011-134",
+    "vehicle_id":"VEH-1011",
+    "date":"2026-02-23T22:26:25.991429",
+    "maintenance_type":"preventive",
+    "failure_type":"tire",
+    "severity":"critical",
+    "parts_replaced":[
+      "wheel bearings",
+      "tires",
+      "valve stems",
+      "TPMS sensors"
+    ],
+    "repair_cost":5267.64,
+    "downtime_hours":70.9,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced wheel bearings, tires, valve stems, TPMS sensors",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-05-06T22:26:25.991429"
+  },
+  {
+    "record_id":"REC-VEH-1011-240",
+    "vehicle_id":"VEH-1011",
+    "date":"2025-11-09T22:26:25.991574",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake fluid"
+    ],
+    "repair_cost":247.88,
+    "downtime_hours":5.7,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-12-27T22:26:25.991574"
+  },
+  {
+    "record_id":"REC-VEH-1011-78",
+    "vehicle_id":"VEH-1011",
+    "date":"2026-04-20T22:26:25.991712",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake pads",
+      "brake rotors"
+    ],
+    "repair_cost":614.1,
+    "downtime_hours":11.6,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads, brake rotors",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-07-06T22:26:25.991712"
+  },
+  {
+    "record_id":"REC-VEH-1011-24",
+    "vehicle_id":"VEH-1011",
+    "date":"2026-06-13T22:26:25.991850",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "calipers",
+      "brake fluid"
+    ],
+    "repair_cost":692.67,
+    "downtime_hours":9.6,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers, brake fluid",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-08-31T22:26:25.991850"
+  },
+  {
+    "record_id":"REC-VEH-1011-264",
+    "vehicle_id":"VEH-1011",
+    "date":"2025-10-16T22:26:25.991985",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"critical",
+    "parts_replaced":[
+      "oil filter",
+      "piston rings",
+      "air filter",
+      "spark plugs"
+    ],
+    "repair_cost":5527.99,
+    "downtime_hours":73.4,
+    "technician_id":"TECH-003",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, piston rings, air filter, spark plugs",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-01-10T22:26:25.991985"
+  },
+  {
+    "record_id":"REC-VEH-1012-285",
+    "vehicle_id":"VEH-1012",
+    "date":"2025-09-25T22:26:25.992129",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"high",
+    "parts_replaced":[
+      "brake pads",
+      "brake rotors",
+      "calipers"
+    ],
+    "repair_cost":2091.42,
+    "downtime_hours":27.3,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads, brake rotors, calipers",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-11-03T22:26:25.992129"
+  },
+  {
+    "record_id":"REC-VEH-1012-216",
+    "vehicle_id":"VEH-1012",
+    "date":"2025-12-03T22:26:25.992266",
+    "maintenance_type":"corrective",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "synchros"
+    ],
+    "repair_cost":150.06,
+    "downtime_hours":6.0,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced synchros",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-02-10T22:26:25.992266"
+  },
+  {
+    "record_id":"REC-VEH-1012-210",
+    "vehicle_id":"VEH-1012",
+    "date":"2025-12-09T22:26:25.992402",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake fluid",
+      "brake pads"
+    ],
+    "repair_cost":748.7,
+    "downtime_hours":6.8,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, brake pads",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-01-22T22:26:25.992402"
+  },
+  {
+    "record_id":"REC-VEH-1012-3",
+    "vehicle_id":"VEH-1012",
+    "date":"2026-07-04T22:26:25.992585",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "oil filter"
+    ],
+    "repair_cost":237.5,
+    "downtime_hours":5.9,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-09-02T22:26:25.992585"
+  },
+  {
+    "record_id":"REC-VEH-1012-143",
+    "vehicle_id":"VEH-1012",
+    "date":"2026-02-14T22:26:25.992742",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "clutch",
+      "transmission fluid"
+    ],
+    "repair_cost":785.49,
+    "downtime_hours":10.6,
+    "technician_id":"TECH-018",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced clutch, transmission fluid",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-04-15T22:26:25.992742"
+  },
+  {
+    "record_id":"REC-VEH-1012-189",
+    "vehicle_id":"VEH-1012",
+    "date":"2025-12-30T22:26:25.992880",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "transmission fluid",
+      "synchros"
+    ],
+    "repair_cost":655.94,
+    "downtime_hours":8.1,
+    "technician_id":"TECH-017",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced transmission fluid, synchros",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-01-29T22:26:25.992880"
+  },
+  {
+    "record_id":"REC-VEH-1012-205",
+    "vehicle_id":"VEH-1012",
+    "date":"2025-12-14T22:26:25.993016",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "air filter",
+      "piston rings"
+    ],
+    "repair_cost":866.52,
+    "downtime_hours":10.9,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter, piston rings",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-03-04T22:26:25.993016"
+  },
+  {
+    "record_id":"REC-VEH-1012-205",
+    "vehicle_id":"VEH-1012",
+    "date":"2025-12-14T22:26:25.993152",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake fluid"
+    ],
+    "repair_cost":233.31,
+    "downtime_hours":1.5,
+    "technician_id":"TECH-007",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-02-08T22:26:25.993152"
+  },
+  {
+    "record_id":"REC-VEH-1012-246",
+    "vehicle_id":"VEH-1012",
+    "date":"2025-11-03T22:26:25.993287",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "spark plugs",
+      "piston rings"
+    ],
+    "repair_cost":797.84,
+    "downtime_hours":8.4,
+    "technician_id":"TECH-003",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced spark plugs, piston rings",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-12-25T22:26:25.993287"
+  },
+  {
+    "record_id":"REC-VEH-1012-74",
+    "vehicle_id":"VEH-1012",
+    "date":"2026-04-24T22:26:25.993427",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake pads",
+      "brake fluid"
+    ],
+    "repair_cost":652.74,
+    "downtime_hours":10.9,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads, brake fluid",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-05-31T22:26:25.993427"
+  },
+  {
+    "record_id":"REC-VEH-1012-189",
+    "vehicle_id":"VEH-1012",
+    "date":"2025-12-30T22:26:25.993562",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "air filter"
+    ],
+    "repair_cost":282.34,
+    "downtime_hours":4.7,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-03-02T22:26:25.993562"
+  },
+  {
+    "record_id":"REC-VEH-1012-277",
+    "vehicle_id":"VEH-1012",
+    "date":"2025-10-03T22:26:25.993696",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"high",
+    "parts_replaced":[
+      "calipers",
+      "brake rotors",
+      "brake fluid"
+    ],
+    "repair_cost":2072.43,
+    "downtime_hours":25.8,
+    "technician_id":"TECH-018",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers, brake rotors, brake fluid",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-12-15T22:26:25.993696"
+  },
+  {
+    "record_id":"REC-VEH-1013-41",
+    "vehicle_id":"VEH-1013",
+    "date":"2026-05-27T22:26:25.993839",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake fluid",
+      "brake pads"
+    ],
+    "repair_cost":727.34,
+    "downtime_hours":9.5,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, brake pads",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-07-28T22:26:25.993839"
+  },
+  {
+    "record_id":"REC-VEH-1013-359",
+    "vehicle_id":"VEH-1013",
+    "date":"2025-07-13T22:26:25.993975",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"critical",
+    "parts_replaced":[
+      "wiring harness",
+      "alternator",
+      "starter motor",
+      "battery"
+    ],
+    "repair_cost":5334.41,
+    "downtime_hours":74.9,
+    "technician_id":"TECH-017",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness, alternator, starter motor, battery",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2025-09-23T22:26:25.993975"
+  },
+  {
+    "record_id":"REC-VEH-1013-142",
+    "vehicle_id":"VEH-1013",
+    "date":"2026-02-15T22:26:25.994112",
+    "maintenance_type":"preventive",
+    "failure_type":"tire",
+    "severity":"medium",
+    "parts_replaced":[
+      "wheel bearings",
+      "valve stems"
+    ],
+    "repair_cost":700.72,
+    "downtime_hours":9.3,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced wheel bearings, valve stems",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-03-19T22:26:25.994112"
+  },
+  {
+    "record_id":"REC-VEH-1013-295",
+    "vehicle_id":"VEH-1013",
+    "date":"2025-09-15T22:26:25.994248",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake pads",
+      "brake rotors"
+    ],
+    "repair_cost":806.85,
+    "downtime_hours":7.0,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads, brake rotors",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-10-20T22:26:25.994248"
+  },
+  {
+    "record_id":"REC-VEH-1013-196",
+    "vehicle_id":"VEH-1013",
+    "date":"2025-12-23T22:26:25.994383",
+    "maintenance_type":"predictive",
+    "failure_type":"tire",
+    "severity":"medium",
+    "parts_replaced":[
+      "TPMS sensors",
+      "tires"
+    ],
+    "repair_cost":720.29,
+    "downtime_hours":8.7,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced TPMS sensors, tires",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-01-27T22:26:25.994383"
+  },
+  {
+    "record_id":"REC-VEH-1013-314",
+    "vehicle_id":"VEH-1013",
+    "date":"2025-08-27T22:26:25.994554",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "calipers"
+    ],
+    "repair_cost":290.08,
+    "downtime_hours":1.0,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-09-28T22:26:25.994554"
+  },
+  {
+    "record_id":"REC-VEH-1013-338",
+    "vehicle_id":"VEH-1013",
+    "date":"2025-08-03T22:26:25.994727",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "piston rings",
+      "spark plugs"
+    ],
+    "repair_cost":659.48,
+    "downtime_hours":8.0,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, spark plugs",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-10-18T22:26:25.994727"
+  },
+  {
+    "record_id":"REC-VEH-1013-151",
+    "vehicle_id":"VEH-1013",
+    "date":"2026-02-06T22:26:25.994864",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "oil filter"
+    ],
+    "repair_cost":210.9,
+    "downtime_hours":1.0,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-04-02T22:26:25.994864"
+  },
+  {
+    "record_id":"REC-VEH-1013-362",
+    "vehicle_id":"VEH-1013",
+    "date":"2025-07-10T22:26:25.994999",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "starter motor"
+    ],
+    "repair_cost":256.16,
+    "downtime_hours":5.0,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced starter motor",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-09-21T22:26:25.994999"
+  },
+  {
+    "record_id":"REC-VEH-1013-314",
+    "vehicle_id":"VEH-1013",
+    "date":"2025-08-27T22:26:25.995135",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "piston rings",
+      "air filter"
+    ],
+    "repair_cost":613.95,
+    "downtime_hours":9.8,
+    "technician_id":"TECH-018",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, air filter",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-10-05T22:26:25.995135"
+  },
+  {
+    "record_id":"REC-VEH-1013-261",
+    "vehicle_id":"VEH-1013",
+    "date":"2025-10-19T22:26:25.995270",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "synchros",
+      "gears"
+    ],
+    "repair_cost":893.85,
+    "downtime_hours":10.7,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced synchros, gears",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-12-11T22:26:25.995270"
+  },
+  {
+    "record_id":"REC-VEH-1013-171",
+    "vehicle_id":"VEH-1013",
+    "date":"2026-01-17T22:26:25.995408",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "spark plugs",
+      "oil filter"
+    ],
+    "repair_cost":720.71,
+    "downtime_hours":7.4,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced spark plugs, oil filter",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-02-22T22:26:25.995408"
+  },
+  {
+    "record_id":"REC-VEH-1013-266",
+    "vehicle_id":"VEH-1013",
+    "date":"2025-10-14T22:26:25.995544",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"critical",
+    "parts_replaced":[
+      "spark plugs",
+      "piston rings",
+      "air filter",
+      "oil filter"
+    ],
+    "repair_cost":5454.42,
+    "downtime_hours":71.8,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced spark plugs, piston rings, air filter, oil filter",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2025-11-27T22:26:25.995544"
+  },
+  {
+    "record_id":"REC-VEH-1013-34",
+    "vehicle_id":"VEH-1013",
+    "date":"2026-06-03T22:26:25.995681",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake pads",
+      "brake rotors"
+    ],
+    "repair_cost":802.19,
+    "downtime_hours":9.1,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads, brake rotors",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-08-15T22:26:25.995681"
+  },
+  {
+    "record_id":"REC-VEH-1014-39",
+    "vehicle_id":"VEH-1014",
+    "date":"2026-05-29T22:26:25.995878",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "spark plugs"
+    ],
+    "repair_cost":263.11,
+    "downtime_hours":5.3,
+    "technician_id":"TECH-014",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced spark plugs",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-08-10T22:26:25.995878"
+  },
+  {
+    "record_id":"REC-VEH-1014-116",
+    "vehicle_id":"VEH-1014",
+    "date":"2026-03-13T22:26:25.996159",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake fluid",
+      "brake pads"
+    ],
+    "repair_cost":815.02,
+    "downtime_hours":11.1,
+    "technician_id":"TECH-010",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, brake pads",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-05-07T22:26:25.996159"
+  },
+  {
+    "record_id":"REC-VEH-1014-344",
+    "vehicle_id":"VEH-1014",
+    "date":"2025-07-28T22:26:25.996411",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "alternator"
+    ],
+    "repair_cost":188.23,
+    "downtime_hours":2.6,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced alternator",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-09-10T22:26:25.996411"
+  },
+  {
+    "record_id":"REC-VEH-1014-47",
+    "vehicle_id":"VEH-1014",
+    "date":"2026-05-21T22:26:25.996701",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"high",
+    "parts_replaced":[
+      "synchros",
+      "transmission fluid",
+      "gears"
+    ],
+    "repair_cost":1893.27,
+    "downtime_hours":26.2,
+    "technician_id":"TECH-018",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced synchros, transmission fluid, gears",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-07-05T22:26:25.996701"
+  },
+  {
+    "record_id":"REC-VEH-1014-350",
+    "vehicle_id":"VEH-1014",
+    "date":"2025-07-22T22:26:25.996974",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"high",
+    "parts_replaced":[
+      "brake fluid",
+      "calipers",
+      "brake rotors"
+    ],
+    "repair_cost":1957.55,
+    "downtime_hours":26.0,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, calipers, brake rotors",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-10-15T22:26:25.996974"
+  },
+  {
+    "record_id":"REC-VEH-1014-254",
+    "vehicle_id":"VEH-1014",
+    "date":"2025-10-26T22:26:25.997123",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "wiring harness"
+    ],
+    "repair_cost":212.44,
+    "downtime_hours":5.4,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-12-17T22:26:25.997123"
+  },
+  {
+    "record_id":"REC-VEH-1014-305",
+    "vehicle_id":"VEH-1014",
+    "date":"2025-09-05T22:26:25.997332",
+    "maintenance_type":"preventive",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "synchros",
+      "gears"
+    ],
+    "repair_cost":839.2,
+    "downtime_hours":8.4,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced synchros, gears",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-10-06T22:26:25.997332"
+  },
+  {
+    "record_id":"REC-VEH-1014-142",
+    "vehicle_id":"VEH-1014",
+    "date":"2026-02-15T22:26:25.997493",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake pads"
+    ],
+    "repair_cost":274.29,
+    "downtime_hours":1.5,
+    "technician_id":"TECH-017",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-04-06T22:26:25.997493"
+  },
+  {
+    "record_id":"REC-VEH-1015-230",
+    "vehicle_id":"VEH-1015",
+    "date":"2025-11-19T22:26:25.997690",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "air filter",
+      "piston rings"
+    ],
+    "repair_cost":801.84,
+    "downtime_hours":11.6,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter, piston rings",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-12-26T22:26:25.997690"
+  },
+  {
+    "record_id":"REC-VEH-1015-250",
+    "vehicle_id":"VEH-1015",
+    "date":"2025-10-30T22:26:25.997841",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"high",
+    "parts_replaced":[
+      "air filter",
+      "spark plugs",
+      "piston rings"
+    ],
+    "repair_cost":2087.52,
+    "downtime_hours":27.3,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter, spark plugs, piston rings",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-01-16T22:26:25.997841"
+  },
+  {
+    "record_id":"REC-VEH-1015-235",
+    "vehicle_id":"VEH-1015",
+    "date":"2025-11-14T22:26:25.997981",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "battery",
+      "starter motor"
+    ],
+    "repair_cost":819.51,
+    "downtime_hours":6.9,
+    "technician_id":"TECH-007",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, starter motor",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-01-30T22:26:25.997981"
+  },
+  {
+    "record_id":"REC-VEH-1015-44",
+    "vehicle_id":"VEH-1015",
+    "date":"2026-05-24T22:26:25.998119",
+    "maintenance_type":"predictive",
+    "failure_type":"tire",
+    "severity":"low",
+    "parts_replaced":[
+      "wheel bearings"
+    ],
+    "repair_cost":285.75,
+    "downtime_hours":4.2,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced wheel bearings",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-06-24T22:26:25.998119"
+  },
+  {
+    "record_id":"REC-VEH-1015-292",
+    "vehicle_id":"VEH-1015",
+    "date":"2025-09-18T22:26:25.998257",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake fluid"
+    ],
+    "repair_cost":261.03,
+    "downtime_hours":3.5,
+    "technician_id":"TECH-007",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-11-19T22:26:25.998257"
+  },
+  {
+    "record_id":"REC-VEH-1015-19",
+    "vehicle_id":"VEH-1015",
+    "date":"2026-06-18T22:26:25.998405",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "battery",
+      "starter motor",
+      "alternator"
+    ],
+    "repair_cost":1844.31,
+    "downtime_hours":26.5,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, starter motor, alternator",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-07-25T22:26:25.998405"
+  },
+  {
+    "record_id":"REC-VEH-1015-104",
+    "vehicle_id":"VEH-1015",
+    "date":"2026-03-25T22:26:25.998636",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "calipers"
+    ],
+    "repair_cost":233.64,
+    "downtime_hours":3.1,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-06-13T22:26:25.998636"
+  },
+  {
+    "record_id":"REC-VEH-1015-121",
+    "vehicle_id":"VEH-1015",
+    "date":"2026-03-08T22:26:25.998951",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "synchros"
+    ],
+    "repair_cost":185.51,
+    "downtime_hours":1.0,
+    "technician_id":"TECH-004",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced synchros",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-05-11T22:26:25.998951"
+  },
+  {
+    "record_id":"REC-VEH-1015-301",
+    "vehicle_id":"VEH-1015",
+    "date":"2025-09-09T22:26:25.999174",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"critical",
+    "parts_replaced":[
+      "brake fluid",
+      "brake pads",
+      "calipers",
+      "brake rotors"
+    ],
+    "repair_cost":5601.7,
+    "downtime_hours":73.2,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, brake pads, calipers, brake rotors",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2025-10-16T22:26:25.999174"
+  },
+  {
+    "record_id":"REC-VEH-1015-51",
+    "vehicle_id":"VEH-1015",
+    "date":"2026-05-17T22:26:25.999319",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "battery",
+      "wiring harness"
+    ],
+    "repair_cost":623.44,
+    "downtime_hours":7.0,
+    "technician_id":"TECH-008",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, wiring harness",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-08-11T22:26:25.999319"
+  },
+  {
+    "record_id":"REC-VEH-1015-125",
+    "vehicle_id":"VEH-1015",
+    "date":"2026-03-04T22:26:25.999459",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake pads",
+      "brake fluid"
+    ],
+    "repair_cost":741.41,
+    "downtime_hours":9.2,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads, brake fluid",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-04-22T22:26:25.999459"
+  },
+  {
+    "record_id":"REC-VEH-1015-288",
+    "vehicle_id":"VEH-1015",
+    "date":"2025-09-22T22:26:25.999596",
+    "maintenance_type":"corrective",
+    "failure_type":"brake",
+    "severity":"high",
+    "parts_replaced":[
+      "brake pads",
+      "brake rotors",
+      "brake fluid"
+    ],
+    "repair_cost":1840.15,
+    "downtime_hours":22.9,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads, brake rotors, brake fluid",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-12-07T22:26:25.999596"
+  },
+  {
+    "record_id":"REC-VEH-1015-317",
+    "vehicle_id":"VEH-1015",
+    "date":"2025-08-24T22:26:25.999737",
+    "maintenance_type":"preventive",
+    "failure_type":"tire",
+    "severity":"high",
+    "parts_replaced":[
+      "valve stems",
+      "TPMS sensors",
+      "wheel bearings"
+    ],
+    "repair_cost":1732.67,
+    "downtime_hours":27.8,
+    "technician_id":"TECH-018",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced valve stems, TPMS sensors, wheel bearings",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-10-23T22:26:25.999737"
+  },
+  {
+    "record_id":"REC-VEH-1015-109",
+    "vehicle_id":"VEH-1015",
+    "date":"2026-03-20T22:26:25.999877",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"high",
+    "parts_replaced":[
+      "brake rotors",
+      "brake pads",
+      "brake fluid"
+    ],
+    "repair_cost":2093.64,
+    "downtime_hours":25.9,
+    "technician_id":"TECH-017",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake rotors, brake pads, brake fluid",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-06-10T22:26:25.999877"
+  },
+  {
+    "record_id":"REC-VEH-1016-177",
+    "vehicle_id":"VEH-1016",
+    "date":"2026-01-11T22:26:26.000021",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake pads"
+    ],
+    "repair_cost":223.06,
+    "downtime_hours":1.6,
+    "technician_id":"TECH-018",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-02-23T22:26:26.000021"
+  },
+  {
+    "record_id":"REC-VEH-1016-277",
+    "vehicle_id":"VEH-1016",
+    "date":"2025-10-03T22:26:26.000159",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"critical",
+    "parts_replaced":[
+      "oil filter",
+      "spark plugs",
+      "piston rings",
+      "air filter"
+    ],
+    "repair_cost":5703.91,
+    "downtime_hours":70.6,
+    "technician_id":"TECH-003",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, spark plugs, piston rings, air filter",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2025-12-03T22:26:26.000159"
+  },
+  {
+    "record_id":"REC-VEH-1016-276",
+    "vehicle_id":"VEH-1016",
+    "date":"2025-10-04T22:26:26.000296",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "piston rings"
+    ],
+    "repair_cost":255.82,
+    "downtime_hours":4.0,
+    "technician_id":"TECH-018",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-12-02T22:26:26.000296"
+  },
+  {
+    "record_id":"REC-VEH-1016-119",
+    "vehicle_id":"VEH-1016",
+    "date":"2026-03-10T22:26:26.000433",
+    "maintenance_type":"preventive",
+    "failure_type":"tire",
+    "severity":"low",
+    "parts_replaced":[
+      "TPMS sensors"
+    ],
+    "repair_cost":235.74,
+    "downtime_hours":4.4,
+    "technician_id":"TECH-003",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced TPMS sensors",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-04-16T22:26:26.000433"
+  },
+  {
+    "record_id":"REC-VEH-1016-83",
+    "vehicle_id":"VEH-1016",
+    "date":"2026-04-15T22:26:26.000610",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "oil filter"
+    ],
+    "repair_cost":240.62,
+    "downtime_hours":5.2,
+    "technician_id":"TECH-016",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-06-05T22:26:26.000610"
+  },
+  {
+    "record_id":"REC-VEH-1016-165",
+    "vehicle_id":"VEH-1016",
+    "date":"2026-01-23T22:26:26.000763",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "oil filter",
+      "piston rings"
+    ],
+    "repair_cost":814.21,
+    "downtime_hours":11.4,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter, piston rings",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-02-23T22:26:26.000763"
+  },
+  {
+    "record_id":"REC-VEH-1016-232",
+    "vehicle_id":"VEH-1016",
+    "date":"2025-11-17T22:26:26.000914",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"critical",
+    "parts_replaced":[
+      "battery",
+      "starter motor",
+      "wiring harness",
+      "alternator"
+    ],
+    "repair_cost":5403.93,
+    "downtime_hours":74.1,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery, starter motor, wiring harness, alternator",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-02-02T22:26:26.000914"
+  },
+  {
+    "record_id":"REC-VEH-1016-102",
+    "vehicle_id":"VEH-1016",
+    "date":"2026-03-27T22:26:26.001051",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "air filter",
+      "piston rings"
+    ],
+    "repair_cost":779.48,
+    "downtime_hours":11.5,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter, piston rings",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-05-22T22:26:26.001051"
+  },
+  {
+    "record_id":"REC-VEH-1016-68",
+    "vehicle_id":"VEH-1016",
+    "date":"2026-04-30T22:26:26.001188",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"high",
+    "parts_replaced":[
+      "calipers",
+      "brake pads",
+      "brake rotors"
+    ],
+    "repair_cost":1993.67,
+    "downtime_hours":24.2,
+    "technician_id":"TECH-004",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers, brake pads, brake rotors",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-06-15T22:26:26.001188"
+  },
+  {
+    "record_id":"REC-VEH-1016-46",
+    "vehicle_id":"VEH-1016",
+    "date":"2026-05-22T22:26:26.001325",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"high",
+    "parts_replaced":[
+      "spark plugs",
+      "oil filter",
+      "piston rings"
+    ],
+    "repair_cost":1781.29,
+    "downtime_hours":23.6,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced spark plugs, oil filter, piston rings",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-08-03T22:26:26.001325"
+  },
+  {
+    "record_id":"REC-VEH-1016-208",
+    "vehicle_id":"VEH-1016",
+    "date":"2025-12-11T22:26:26.001461",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "piston rings"
+    ],
+    "repair_cost":252.0,
+    "downtime_hours":4.6,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-02-12T22:26:26.001461"
+  },
+  {
+    "record_id":"REC-VEH-1017-357",
+    "vehicle_id":"VEH-1017",
+    "date":"2025-07-15T22:26:26.001604",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake pads"
+    ],
+    "repair_cost":295.37,
+    "downtime_hours":1.0,
+    "technician_id":"TECH-005",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-10-07T22:26:26.001604"
+  },
+  {
+    "record_id":"REC-VEH-1017-246",
+    "vehicle_id":"VEH-1017",
+    "date":"2025-11-03T22:26:26.001761",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"high",
+    "parts_replaced":[
+      "alternator",
+      "wiring harness",
+      "starter motor"
+    ],
+    "repair_cost":1955.52,
+    "downtime_hours":23.9,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced alternator, wiring harness, starter motor",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-01-01T22:26:26.001761"
+  },
+  {
+    "record_id":"REC-VEH-1017-26",
+    "vehicle_id":"VEH-1017",
+    "date":"2026-06-11T22:26:26.001901",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "starter motor",
+      "battery"
+    ],
+    "repair_cost":672.48,
+    "downtime_hours":10.9,
+    "technician_id":"TECH-009",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced starter motor, battery",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-08-06T22:26:26.001901"
+  },
+  {
+    "record_id":"REC-VEH-1017-271",
+    "vehicle_id":"VEH-1017",
+    "date":"2025-10-09T22:26:26.002037",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"medium",
+    "parts_replaced":[
+      "clutch",
+      "transmission fluid"
+    ],
+    "repair_cost":717.74,
+    "downtime_hours":11.5,
+    "technician_id":"TECH-014",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced clutch, transmission fluid",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-12-01T22:26:26.002037"
+  },
+  {
+    "record_id":"REC-VEH-1017-165",
+    "vehicle_id":"VEH-1017",
+    "date":"2026-01-23T22:26:26.002174",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "battery"
+    ],
+    "repair_cost":286.38,
+    "downtime_hours":1.0,
+    "technician_id":"TECH-007",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-03-25T22:26:26.002174"
+  },
+  {
+    "record_id":"REC-VEH-1018-262",
+    "vehicle_id":"VEH-1018",
+    "date":"2025-10-18T22:26:26.002315",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "piston rings",
+      "air filter"
+    ],
+    "repair_cost":669.91,
+    "downtime_hours":9.1,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced piston rings, air filter",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-12-23T22:26:26.002315"
+  },
+  {
+    "record_id":"REC-VEH-1018-244",
+    "vehicle_id":"VEH-1018",
+    "date":"2025-11-05T22:26:26.002451",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "synchros"
+    ],
+    "repair_cost":187.34,
+    "downtime_hours":5.1,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced synchros",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-01-16T22:26:26.002451"
+  },
+  {
+    "record_id":"REC-VEH-1018-225",
+    "vehicle_id":"VEH-1018",
+    "date":"2025-11-24T22:26:26.002730",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "wiring harness"
+    ],
+    "repair_cost":232.91,
+    "downtime_hours":1.0,
+    "technician_id":"TECH-007",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-02-18T22:26:26.002730"
+  },
+  {
+    "record_id":"REC-VEH-1018-18",
+    "vehicle_id":"VEH-1018",
+    "date":"2026-06-19T22:26:26.003027",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "starter motor",
+      "wiring harness"
+    ],
+    "repair_cost":763.08,
+    "downtime_hours":6.7,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced starter motor, wiring harness",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-07-24T22:26:26.003027"
+  },
+  {
+    "record_id":"REC-VEH-1018-109",
+    "vehicle_id":"VEH-1018",
+    "date":"2026-03-20T22:26:26.003252",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "spark plugs",
+      "oil filter"
+    ],
+    "repair_cost":798.59,
+    "downtime_hours":8.8,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced spark plugs, oil filter",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-06-13T22:26:26.003252"
+  },
+  {
+    "record_id":"REC-VEH-1018-80",
+    "vehicle_id":"VEH-1018",
+    "date":"2026-04-18T22:26:26.003467",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"high",
+    "parts_replaced":[
+      "synchros",
+      "clutch",
+      "gears"
+    ],
+    "repair_cost":1700.65,
+    "downtime_hours":27.4,
+    "technician_id":"TECH-014",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced synchros, clutch, gears",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-06-01T22:26:26.003467"
+  },
+  {
+    "record_id":"REC-VEH-1018-36",
+    "vehicle_id":"VEH-1018",
+    "date":"2026-06-01T22:26:26.003674",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"critical",
+    "parts_replaced":[
+      "air filter",
+      "piston rings",
+      "oil filter",
+      "spark plugs"
+    ],
+    "repair_cost":5785.05,
+    "downtime_hours":74.6,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter, piston rings, oil filter, spark plugs",
+    "notes":"Routine critical maintenance",
+    "next_maintenance_date":"2026-08-15T22:26:26.003674"
+  },
+  {
+    "record_id":"REC-VEH-1018-106",
+    "vehicle_id":"VEH-1018",
+    "date":"2026-03-23T22:26:26.003892",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "gears"
+    ],
+    "repair_cost":263.28,
+    "downtime_hours":3.0,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced gears",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-05-04T22:26:26.003892"
+  },
+  {
+    "record_id":"REC-VEH-1018-87",
+    "vehicle_id":"VEH-1018",
+    "date":"2026-04-11T22:26:26.004114",
+    "maintenance_type":"preventive",
+    "failure_type":"tire",
+    "severity":"high",
+    "parts_replaced":[
+      "TPMS sensors",
+      "valve stems",
+      "tires"
+    ],
+    "repair_cost":1888.41,
+    "downtime_hours":26.7,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced TPMS sensors, valve stems, tires",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-05-25T22:26:26.004114"
+  },
+  {
+    "record_id":"REC-VEH-1018-43",
+    "vehicle_id":"VEH-1018",
+    "date":"2026-05-25T22:26:26.004476",
+    "maintenance_type":"predictive",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "wiring harness"
+    ],
+    "repair_cost":276.25,
+    "downtime_hours":4.7,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-07-01T22:26:26.004476"
+  },
+  {
+    "record_id":"REC-VEH-1018-215",
+    "vehicle_id":"VEH-1018",
+    "date":"2025-12-04T22:26:26.004815",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "brake pads"
+    ],
+    "repair_cost":299.12,
+    "downtime_hours":4.9,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake pads",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-01-22T22:26:26.004815"
+  },
+  {
+    "record_id":"REC-VEH-1018-361",
+    "vehicle_id":"VEH-1018",
+    "date":"2025-07-11T22:26:26.005039",
+    "maintenance_type":"corrective",
+    "failure_type":"electrical",
+    "severity":"low",
+    "parts_replaced":[
+      "battery"
+    ],
+    "repair_cost":280.67,
+    "downtime_hours":5.5,
+    "technician_id":"TECH-001",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced battery",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-09-16T22:26:26.005039"
+  },
+  {
+    "record_id":"REC-VEH-1018-145",
+    "vehicle_id":"VEH-1018",
+    "date":"2026-02-12T22:26:26.005253",
+    "maintenance_type":"predictive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "calipers"
+    ],
+    "repair_cost":259.69,
+    "downtime_hours":4.3,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-04-08T22:26:26.005253"
+  },
+  {
+    "record_id":"REC-VEH-1018-169",
+    "vehicle_id":"VEH-1018",
+    "date":"2026-01-19T22:26:26.005464",
+    "maintenance_type":"preventive",
+    "failure_type":"electrical",
+    "severity":"medium",
+    "parts_replaced":[
+      "wiring harness",
+      "starter motor"
+    ],
+    "repair_cost":608.05,
+    "downtime_hours":8.7,
+    "technician_id":"TECH-017",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on electrical components",
+    "action_taken":"Replaced wiring harness, starter motor",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-04-14T22:26:26.005464"
+  },
+  {
+    "record_id":"REC-VEH-1018-337",
+    "vehicle_id":"VEH-1018",
+    "date":"2025-08-04T22:26:26.005698",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"high",
+    "parts_replaced":[
+      "spark plugs",
+      "oil filter",
+      "piston rings"
+    ],
+    "repair_cost":1927.88,
+    "downtime_hours":25.7,
+    "technician_id":"TECH-003",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced spark plugs, oil filter, piston rings",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2025-10-15T22:26:26.005698"
+  },
+  {
+    "record_id":"REC-VEH-1018-333",
+    "vehicle_id":"VEH-1018",
+    "date":"2025-08-08T22:26:26.005913",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "oil filter"
+    ],
+    "repair_cost":187.25,
+    "downtime_hours":1.0,
+    "technician_id":"TECH-002",
+    "workshop_id":"WS-002",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2025-10-04T22:26:26.005913"
+  },
+  {
+    "record_id":"REC-VEH-1018-117",
+    "vehicle_id":"VEH-1018",
+    "date":"2026-03-12T22:26:26.006178",
+    "maintenance_type":"preventive",
+    "failure_type":"tire",
+    "severity":"medium",
+    "parts_replaced":[
+      "valve stems",
+      "wheel bearings"
+    ],
+    "repair_cost":822.16,
+    "downtime_hours":6.7,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on tire components",
+    "action_taken":"Replaced valve stems, wheel bearings",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-05-10T22:26:26.006178"
+  },
+  {
+    "record_id":"REC-VEH-1018-112",
+    "vehicle_id":"VEH-1018",
+    "date":"2026-03-17T22:26:26.006386",
+    "maintenance_type":"preventive",
+    "failure_type":"engine",
+    "severity":"medium",
+    "parts_replaced":[
+      "air filter",
+      "oil filter"
+    ],
+    "repair_cost":729.56,
+    "downtime_hours":10.8,
+    "technician_id":"TECH-015",
+    "workshop_id":"WS-004",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced air filter, oil filter",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2026-06-03T22:26:26.006386"
+  },
+  {
+    "record_id":"REC-VEH-1019-18",
+    "vehicle_id":"VEH-1019",
+    "date":"2026-06-19T22:26:26.006613",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"high",
+    "parts_replaced":[
+      "brake fluid",
+      "calipers",
+      "brake rotors"
+    ],
+    "repair_cost":1792.8,
+    "downtime_hours":26.7,
+    "technician_id":"TECH-012",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, calipers, brake rotors",
+    "notes":"Routine high maintenance",
+    "next_maintenance_date":"2026-09-10T22:26:26.006613"
+  },
+  {
+    "record_id":"REC-VEH-1019-77",
+    "vehicle_id":"VEH-1019",
+    "date":"2026-04-21T22:26:26.006826",
+    "maintenance_type":"predictive",
+    "failure_type":"transmission",
+    "severity":"low",
+    "parts_replaced":[
+      "clutch"
+    ],
+    "repair_cost":214.42,
+    "downtime_hours":5.8,
+    "technician_id":"TECH-006",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on transmission components",
+    "action_taken":"Replaced clutch",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-06-22T22:26:26.006826"
+  },
+  {
+    "record_id":"REC-VEH-1019-113",
+    "vehicle_id":"VEH-1019",
+    "date":"2026-03-16T22:26:26.007041",
+    "maintenance_type":"corrective",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "oil filter"
+    ],
+    "repair_cost":215.25,
+    "downtime_hours":1.5,
+    "technician_id":"TECH-013",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-05-12T22:26:26.007041"
+  },
+  {
+    "record_id":"REC-VEH-1019-133",
+    "vehicle_id":"VEH-1019",
+    "date":"2026-02-24T22:26:26.007250",
+    "maintenance_type":"predictive",
+    "failure_type":"engine",
+    "severity":"low",
+    "parts_replaced":[
+      "oil filter"
+    ],
+    "repair_cost":163.54,
+    "downtime_hours":3.2,
+    "technician_id":"TECH-007",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on engine components",
+    "action_taken":"Replaced oil filter",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-05-10T22:26:26.007250"
+  },
+  {
+    "record_id":"REC-VEH-1019-288",
+    "vehicle_id":"VEH-1019",
+    "date":"2025-09-22T22:26:26.007468",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "brake fluid",
+      "calipers"
+    ],
+    "repair_cost":783.24,
+    "downtime_hours":10.3,
+    "technician_id":"TECH-011",
+    "workshop_id":"WS-001",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced brake fluid, calipers",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-11-17T22:26:26.007468"
+  },
+  {
+    "record_id":"REC-VEH-1019-356",
+    "vehicle_id":"VEH-1019",
+    "date":"2025-07-16T22:26:26.007687",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"medium",
+    "parts_replaced":[
+      "calipers",
+      "brake pads"
+    ],
+    "repair_cost":869.09,
+    "downtime_hours":8.1,
+    "technician_id":"TECH-019",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers, brake pads",
+    "notes":"Routine medium maintenance",
+    "next_maintenance_date":"2025-08-16T22:26:26.007687"
+  },
+  {
+    "record_id":"REC-VEH-1019-47",
+    "vehicle_id":"VEH-1019",
+    "date":"2026-05-21T22:26:26.007901",
+    "maintenance_type":"preventive",
+    "failure_type":"brake",
+    "severity":"low",
+    "parts_replaced":[
+      "calipers"
+    ],
+    "repair_cost":212.96,
+    "downtime_hours":3.8,
+    "technician_id":"TECH-003",
+    "workshop_id":"WS-003",
+    "root_cause":"Wear and tear on brake components",
+    "action_taken":"Replaced calipers",
+    "notes":"Routine low maintenance",
+    "next_maintenance_date":"2026-07-05T22:26:26.007901"
+  }
+]
