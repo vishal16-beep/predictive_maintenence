@@ -4,8 +4,6 @@ An AI model which is trained on the NASA's CMAPSS dataset for prediction of RUL 
 
 An AI-powered predictive maintenance system for turbofan engines, trained on the **NASA C-MAPSS FD001** dataset. Predicts **Remaining Useful Life (RUL)** of jet engines using XGBoost with rolling window features.
 
-
-
 ## Dataset
 
 **NASA C-MAPSS (Commercial Modular Aero-Propulsion System Simulation)**
@@ -65,13 +63,6 @@ predictive-maintenance/
     └── jet_engine.png           # Dashboard background
 ```
 
-## Installation
-
-```bash
-git clone https://github.com/your-org/predictive-maintenance.git
-cd predictive-maintenance
-pip install pandas numpy scikit-learn xgboost fastapi uvicorn pydantic pydantic-settings python-dotenv websockets streamlit plotly requests
-```
 
 ## Quick Start
 
