@@ -1,9 +1,6 @@
 # Data files (large NASA datasets)
 data/*.txt
 
-# Model files (large)
-models/*.json
-
 # Environment variables
 .env
 

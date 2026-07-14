@@ -33,11 +33,16 @@ FEATURE_COLUMNS = [
 @st.cache_resource
 def load_model():
     """Load XGBoost model from disk."""
-    model_path = Path(__file__).parent.parent / "models" / "xgboost_rul_model.json"
-    metadata_path = Path(__file__).parent.parent / "models" / "model_metadata.json"
+    base_path = Path(__file__).parent.parent / "models"
+    metadata_path = base_path / "model_metadata.json"
     
+    # Try different model formats (ubj first - most portable)
     model = xgb.Booster()
-    model.load_model(str(model_path))
+    for fmt in ["xgboost_rul_model.ubj", "xgboost_rul_model.json", "xgboost_rul_model_new.json"]:
+        model_path = base_path / fmt
+        if model_path.exists():
+            model.load_model(str(model_path))
+            break
     
     metadata = {}
     if metadata_path.exists():

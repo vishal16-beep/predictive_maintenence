@@ -1,8 +1,8 @@
-
-An AI model which is trained on the NASA's CMAPSS dataset for prediction of RUL of Turbofan blades in jet engines, etc.
 # Predictive Maintenance System - NASA C-MAPSS FD001
 
 An AI-powered predictive maintenance system for turbofan engines, trained on the **NASA C-MAPSS FD001** dataset. Predicts **Remaining Useful Life (RUL)** of jet engines using XGBoost with rolling window features.
+
+![Jet Engine](assets/jet_engine.png)
 
 ## Dataset
 
@@ -63,15 +63,33 @@ predictive-maintenance/
     └── jet_engine.png           # Dashboard background
 ```
 
+## Installation
+
+```bash
+git clone https://github.com/your-org/predictive-maintenance.git
+cd predictive-maintenance
+pip install pandas numpy scikit-learn xgboost fastapi uvicorn pydantic pydantic-settings python-dotenv websockets streamlit plotly requests
+```
 
 ## Quick Start
 
 ### 1. Train Model (or use pre-trained)
 
+```bash
+python scripts/train_cmapss.py
+```
+
 ### 2. Start API Server
+
+```bash
+uvicorn src.api.main:app --reload --host 0.0.0.0 --port 8000
+```
 
 ### 3. Start Dashboard
 
+```bash
+streamlit run dashboard/streamlit_app.py --server.port 8501
+```
 
 ## API Endpoints
 
@@ -81,6 +99,43 @@ predictive-maintenance/
 | GET | `/api/v1/model/info` | Model metadata |
 | POST | `/api/v1/predict/rul` | Predict RUL for single reading |
 
+### Example Request
+
+```json
+POST /api/v1/predict/rul
+{
+  "single_reading": {
+    "op_setting_1": -0.0006,
+    "op_setting_2": 0.0004,
+    "op_setting_3": 100.0,
+    "sensor_2": 642.58,
+    "sensor_3": 1581.22,
+    "sensor_4": 1398.91,
+    "sensor_7": 554.42,
+    "sensor_8": 2388.08,
+    "sensor_9": 9056.40,
+    "sensor_11": 47.23,
+    "sensor_12": 521.79,
+    "sensor_13": 2388.06,
+    "sensor_14": 8130.11,
+    "sensor_15": 8.4024,
+    "sensor_17": 393.0,
+    "sensor_20": 38.81,
+    "sensor_21": 23.3552
+  }
+}
+```
+
+### Example Response
+
+```json
+{
+  "predicted_rul": 45.2,
+  "urgency": "MODERATE",
+  "confidence": 0.85
+}
+```
+
 ## Dashboard Features
 
 - **Predict RUL**: Adjust sensor sliders to get real-time predictions
@@ -88,9 +143,26 @@ predictive-maintenance/
 - **Model Info**: View model metrics and feature importance
 - **Sensor Reference**: Detailed sensor descriptions
 
+## Sharing Locally
+
+**Same WiFi network:**
+```
+http://<your-local-ip>:8501
+```
+
+**Public internet (ngrok):**
+```bash
+pip install ngrok
+ngrok http 8501
+```
+
 ## Tech Stack
 
 - **ML**: XGBoost, Pandas, NumPy, Scikit-learn
 - **API**: FastAPI, Uvicorn, Pydantic
 - **Dashboard**: Streamlit, Plotly
 - **Dataset**: NASA C-MAPSS FD001
+
+## License
+
+MIT License
