@@ -35,8 +35,8 @@ def load_model():
     """Load XGBoost model from disk."""
     base_path = Path(__file__).parent.parent / "models"
     metadata_path = base_path / "model_metadata.json"
+    features_path = base_path / "feature_columns.json"
     
-    # Try different model formats (ubj first - most portable)
     model = xgb.Booster()
     for fmt in ["xgboost_rul_model.ubj", "xgboost_rul_model.json", "xgboost_rul_model_new.json"]:
         model_path = base_path / fmt
@@ -49,25 +49,26 @@ def load_model():
         with open(metadata_path, "r") as f:
             metadata = json.load(f)
     
-    return model, metadata
+    feature_cols = FEATURE_COLUMNS[:]
+    if features_path.exists():
+        with open(features_path, "r") as f:
+            feature_cols = json.load(f)
+    
+    return model, metadata, feature_cols
 
-def predict_single(model, reading):
+def predict_single(model, reading, feature_cols):
     """Predict RUL from a single reading."""
     features = {}
     for col in FEATURE_COLUMNS:
-        features[col] = float(reading.get(col, 0.0))
-    for col in FEATURE_COLUMNS:
-        features[f"{col}_roll_mean"] = features[col]
+        val = float(reading.get(col, 0.0))
+        features[col] = val
+        features[f"{col}_roll_mean"] = val
         features[f"{col}_roll_std"] = 0.0
     
-    feature_values = [features.get(col, 0.0) for col in FEATURE_COLUMNS + 
-                      [f"{c}_roll_mean" for c in FEATURE_COLUMNS] + 
-                      [f"{c}_roll_std" for c in FEATURE_COLUMNS]]
+    feature_values = [features.get(col, 0.0) for col in feature_cols]
     
     X = np.array([feature_values])
-    dmatrix = xgb.DMatrix(X, feature_names=FEATURE_COLUMNS + 
-                          [f"{c}_roll_mean" for c in FEATURE_COLUMNS] + 
-                          [f"{c}_roll_std" for c in FEATURE_COLUMNS])
+    dmatrix = xgb.DMatrix(X, feature_names=feature_cols)
     
     raw_pred = model.predict(dmatrix)[0]
     clipped = float(np.clip(raw_pred, 0, 125))
@@ -172,7 +173,7 @@ SENSORS = {
 DROPPED_SENSORS = ["sensor_1", "sensor_5", "sensor_6", "sensor_10", "sensor_16", "sensor_18", "sensor_19"]
 
 # ─── Load Model ──────────────────────────────────────────────────────────────
-model, metadata = load_model()
+model, metadata, feature_cols = load_model()
 
 # ─── Sidebar ─────────────────────────────────────────────────────────────────
 def render_sidebar():
@@ -226,7 +227,7 @@ def render_predict_rul():
     
     if st.button("🚀 Predict RUL", type="primary", use_container_width=True):
         with st.spinner("Analyzing sensor data..."):
-            result = predict_single(model, reading)
+            result = predict_single(model, reading, feature_cols)
         
         col1, col2, col3, col4 = st.columns(4)
         with col1:
@@ -342,7 +343,7 @@ def render_batch_analysis():
                     with st.spinner("Processing..."):
                         predictions = []
                         for idx, row in df.iterrows():
-                            result = predict_single(model, row.to_dict())
+                            result = predict_single(model, row.to_dict(), feature_cols)
                             predictions.append({
                                 "row": idx,
                                 "unit_number": row.get("unit_number", idx),
